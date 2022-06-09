@@ -1,0 +1,17 @@
+.pages {
+  justify-content: space-between;
+  border: solid var(--gray) 0.1rem;
+}
+
+.pages a {
+  font-size: 1.8rem;
+  line-height: 1.5em;
+  line-height: 4em;
+}
+
+.prev {
+  margin-inline-start: 3rem;
+}
+.next {
+  margin-inline-end: 3rem;
+}

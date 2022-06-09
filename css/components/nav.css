@@ -1,0 +1,41 @@
+nav {
+  background-color: var(--nav-bg);
+  height: 13rem;
+  margin-bottom: 5rem;
+  justify-content: center;
+}
+
+.main-nav {
+  width: 95rem;
+  justify-content: space-around;
+}
+
+.logo {
+  flex-basis: 50%;
+}
+.logo span {
+  color: var(--green);
+}
+
+.nav-list {
+  flex-basis: 50%;
+}
+
+.nav-link {
+  cursor: pointer;
+  text-align: center;
+  flex-basis: 13rem;
+  line-height: 13rem;
+  background-color: var(--nav-link-bg-clr);
+  border-inline: solid var(--nav-bg) 0.1rem;
+
+  box-shadow: inset black;
+  transition: color, 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--green);
+
+  /* outline-botton: solid var(--green) 0.4rem; */
+  box-shadow: inset 0px -7px var(--green);
+}

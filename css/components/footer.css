@@ -1,0 +1,30 @@
+.footer {
+  background-color: var(--footer-bg);
+  text-align: center;
+  border-top: solid var(--gray) 0.01rem;
+}
+
+.footer-logo {
+  padding: 5rem;
+}
+.footer-logo span {
+  color: var(--green);
+}
+.footer-credits {
+  margin-bottom: 3rem;
+}
+
+.footer-credits span {
+  font-weight: 700;
+}
+
+.footer-list {
+  width: 23rem;
+  margin: auto;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.footer-list .icon {
+  cursor: pointer;
+}

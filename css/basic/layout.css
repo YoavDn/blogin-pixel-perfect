@@ -1,0 +1,8 @@
+.main-layout {
+  max-width: 95rem;
+  margin: 0 auto;
+
+  border-collapse: collapse;
+  box-sizing: border-box;
+  border: solid var(--gray) 0.1rem;
+}

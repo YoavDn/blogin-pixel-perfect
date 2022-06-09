@@ -1,0 +1,38 @@
+.card {
+  justify-content: space-between;
+  margin-bottom: 7.8rem;
+}
+.card .img-card {
+  flex-basis: 45%;
+}
+
+.text {
+  flex-basis: 50%;
+}
+
+.card-title {
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.text p {
+  line-height: 1.3em;
+  margin-bottom: 1.5em;
+}
+
+.text .keep-reading {
+  font-family: 'Lato', sans-serif;
+
+  cursor: pointer;
+  background: none;
+  color: var(--gray);
+  font-size: 1.6rem;
+  border-radius: 3rem;
+  padding: 0.5em 2em;
+  border: solid 0.15em;
+  transition: color 0.3s;
+}
+
+.keep-reading:hover {
+  color: var(--green);
+}
