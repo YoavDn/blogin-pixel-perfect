@@ -5,6 +5,7 @@
 }
 
 .footer-logo {
+  color: black;
   padding: 5rem;
 }
 .footer-logo span {
@@ -22,7 +23,7 @@
   width: 23rem;
   margin: auto;
   justify-content: space-between;
-  padding-bottom: 4rem;
+  padding-bottom: 7rem;
 }
 
 .footer-list .icon {

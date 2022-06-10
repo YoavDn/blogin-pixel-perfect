@@ -9,10 +9,6 @@ html {
   color: white;
 }
 
-/* body {
-
-} */
-
 h1,
 h2 {
   font-size: 2.8rem;
@@ -44,4 +40,13 @@ p {
 a {
   text-decoration: none;
   color: var(--txt-clr);
+}
+
+.logo {
+  font-family: 'eurof55';
+  font-size: 3.8rem;
+}
+
+.hamburger {
+  display: none;
 }

@@ -10,7 +10,8 @@
   <body>
     <nav class="flex">
       <div class="main-nav flex align-center">
-        <h2 class="logo">Blogin<span>.</span></h2>
+        <h2 class="logo nav-logo">Blogin<span>.</span></h2>
+        <button onclick="toggleMenu()" class="hamburger menu-toggle">☰</button>
         <ul class="nav-list flex clean-list">
           <li class="nav-link">Jornal</li>
           <li class="nav-link">About</li>
@@ -75,7 +76,7 @@
       </div>
     </main>
     <footer class="footer">
-      <h2 class="footer-logo">Blogin<span>.</span></h2>
+      <h2 class="logo footer-logo">Blogin<span>.</span></h2>
       <h3 class="footer-credits">
         © 2014 Blogin.com - All Rights Reserved - Find more free Templates at <span>Pixelhint.com</span>
       </h3>
@@ -86,5 +87,12 @@
         <li class="icon"><img src="/imgs/iconmonstr-facebook-2.svg" alt="" /></li>
       </ul>
     </footer>
+
+    <script>
+      function toggleMenu() {
+        document.body.classList.toggle('menu-toggle')
+        console.log('hi')
+      }
+    </script>
   </body>
 </html>
