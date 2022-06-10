@@ -1,6 +1,6 @@
 .pages {
   justify-content: space-between;
-  border: solid var(--gray) 0.1rem;
+  border-top: solid var(--gray) 0.1rem;
 }
 
 .pages a {

@@ -4,6 +4,7 @@
   .main-layout {
     width: 78rem;
     margin: 0 auto;
+    padding-top: 1rem;
 
     border: none;
   }
@@ -25,8 +26,6 @@
   .nav-list .nav-link {
     line-height: 10rem;
   }
-
-  /* main */
 
   /* card */
 
@@ -51,6 +50,11 @@
     line-height: 1.3em;
     margin-bottom: 1em;
   }
+
+  .pages {
+    width: calc(100vw);
+    margin-left: calc(-50vw + 50%);
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -67,10 +71,15 @@
     border-inline-start: 1px solid #ccc;
   }
 
+  .nav-list .nav-link {
+    font-size: 1.4em;
+    line-height: 6em;
+  }
+
   .nav-list {
     position: fixed;
     right: 0;
-    top: 10rem;
+    top: 0;
     flex-direction: column;
     background-color: rgb(255 255 255 / 90%);
     height: 100vh;
@@ -78,9 +87,12 @@
 
     transform: translateX(100%);
 
-    transition: transform 0.6s, box-shadow 0.6s;
+    transition: transform 0.4s, box-shadow 0.6s;
   }
 
+  .nav-list .nav-link:hover {
+    box-shadow: inset 4px 0px var(--green);
+  }
   body.menu-toggle .nav-list {
     box-shadow: -6px 0px 17px rgb(0 0 0 / 19%);
     transform: translateX(0);
@@ -113,5 +125,37 @@
   }
   .keep-reading {
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-layout {
+    width: 470px;
+  }
+
+  nav {
+    height: 6rem;
+  }
+  .hamburger {
+    line-height: 6rem;
+    flex-basis: 8rem;
+  }
+
+  .nav-logo {
+    font-size: 3rem;
+  }
+
+  .card {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-layout {
+    width: 370px;
+  }
+
+  .card {
+    width: 350px;
   }
 }

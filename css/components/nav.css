@@ -3,7 +3,6 @@ nav {
   height: 13rem;
   margin: auto;
 
-  margin-bottom: 5rem;
   justify-content: center;
 }
 
@@ -41,6 +40,5 @@ nav {
 .nav-link:hover {
   color: var(--green);
 
-  /* outline-botton: solid var(--green) 0.4rem; */
   box-shadow: inset 0px -7px var(--green);
 }
