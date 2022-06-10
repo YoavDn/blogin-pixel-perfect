@@ -12,9 +12,9 @@
     <nav class="flex">
       <div class="main-nav flex align-center">
         <h2 class="logo nav-logo">Blogin<span>.</span></h2>
-        <button onclick="toggleMenu()" class="hamburger menu-toggle">☰</button>
+        <button onclick="toggleMenu()" class="nav-link hamburger menu-toggle">☰</button>
         <ul class="nav-list flex clean-list">
-          <button onclick="toggleMenu()" class="hamburger menu-toggle">☰</button>
+          <button onclick="toggleMenu()" class="hamburger menu-toggle nav-link">☰</button>
 
           <li class="nav-link">Jornal</li>
           <li class="nav-link">About</li>
@@ -70,7 +70,7 @@
           <p class="last-card-p">
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
           </p>
-          <button class="keep-reading">Continue Reading</button>
+          <button onclick="toggleModal()" class="keep-reading">Continue Reading</button>
         </div>
       </div>
       <div class="pages flex align-center">
@@ -91,11 +91,13 @@
       </ul>
     </footer>
 
-    <script>
-      function toggleMenu() {
-        document.body.classList.toggle('menu-toggle')
-        console.log('hi')
-      }
-    </script>
+    <div class="modal hidden">
+      <h2 class="modal-title">Join us to get access to the latest stories!</h2>
+      <input class="keep-reading input" type="email" placeholder="yourmail@.gmail.com.." />
+      <button onclick="toggleModal()" class="keep-reading">Send</button>
+    </div>
+    <div onclick="toggleModal()" class="overlay hidden"></div>
+
+    <script src="main.js"></script>
   </body>
 </html>

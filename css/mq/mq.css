@@ -62,13 +62,16 @@
     width: 600px;
   }
   .hamburger {
+    color: white;
+    background-color: var(--nav-bg);
     display: inline;
     border: none;
     font-size: 2.8rem;
     line-height: 10rem;
     flex-basis: 13rem;
     justify-self: end;
-    border-inline-start: 1px solid #ccc;
+
+    transition: color, border, 0.3s;
   }
 
   .nav-list .nav-link {
@@ -92,6 +95,13 @@
 
   .nav-list .nav-link:hover {
     box-shadow: inset 4px 0px var(--green);
+  }
+  .hamburger:hover {
+    box-shadow: inset 4px 0px var(--green);
+  }
+
+  .hamburger .nav-link {
+    line-height: 6rem;
   }
   body.menu-toggle .nav-list {
     box-shadow: -6px 0px 17px rgb(0 0 0 / 19%);

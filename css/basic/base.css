@@ -28,6 +28,7 @@ img {
 }
 
 li {
+  cursor: pointer;
   font-size: 1.6rem;
   font-weight: bold;
 }
@@ -49,4 +50,8 @@ a {
 
 .hamburger {
   display: none;
+}
+
+button {
+  cursor: pointer;
 }
