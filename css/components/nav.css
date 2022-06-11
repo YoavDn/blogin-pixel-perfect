@@ -42,3 +42,37 @@ nav {
 
   box-shadow: inset 0px -7px var(--green);
 }
+
+/* dropdown  */
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  font-size: 1.6rem;
+  line-height: 1.3em;
+  padding-left: 2rem;
+  text-align: end;
+
+  display: block;
+  color: white;
+  background-color: var(--nav-bg);
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  box-shadow: inset 5px 0px var(--green);
+
+  color: var(--green);
+}

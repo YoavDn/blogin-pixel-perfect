@@ -15,8 +15,14 @@
         <button onclick="toggleMenu()" class="nav-link hamburger menu-toggle">☰</button>
         <ul class="nav-list flex clean-list">
           <button onclick="toggleMenu()" class="hamburger menu-toggle nav-link">☰</button>
-
-          <li class="nav-link">Jornal</li>
+          <div class="dropdown">
+            <li class="nav-link">Jornal</li>
+            <div class="dropdown-content">
+              <a href="#">October 2016</a>
+              <a href="#">January 2017</a>
+              <a href="#">April 2017</a>
+            </div>
+          </div>
           <li class="nav-link">About</li>
           <li class="nav-link">Work</li>
           <li class="nav-link">Contact</li>
@@ -38,12 +44,12 @@
           <p class="last-card-p">
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
           </p>
-          <button class="keep-reading">Continue Reading</button>
+          <button onclick="toggleModal()" class="keep-reading">Continue Reading</button>
         </div>
       </div>
       <div class="card flex">
         <div class="img-card">
-          <img src="/imgs/geran-de-klerk-qzgN45hseN0-unsplash.jpg" alt="" />
+          <img src="/imgs/hiep-nguyen-NAYf2nxtNvo-unsplash.jpg" alt="" />
         </div>
         <div class="text">
           <h1 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit</h1>
@@ -54,12 +60,12 @@
           <p class="last-card-p">
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...
           </p>
-          <button class="keep-reading">Continue Reading</button>
+          <button onclick="toggleModal()" class="keep-reading">Continue Reading</button>
         </div>
       </div>
       <div class="card flex">
         <div class="img-card">
-          <img src="/imgs/geran-de-klerk-qzgN45hseN0-unsplash.jpg" alt="" />
+          <img src="/imgs/irina-iriser-nYIQYg8cQVc-unsplash.jpg" alt="" />
         </div>
         <div class="text">
           <h1 class="card-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit</h1>

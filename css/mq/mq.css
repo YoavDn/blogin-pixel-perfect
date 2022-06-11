@@ -55,6 +55,12 @@
     width: calc(100vw);
     margin-left: calc(-50vw + 50%);
   }
+
+  /* modal */
+
+  .modal {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 760px) {
