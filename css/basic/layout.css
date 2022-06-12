@@ -1,9 +1,10 @@
 .main-layout {
   max-width: 95rem;
   margin: 0 auto;
+}
 
-  box-sizing: border-box;
-  border-left: solid var(--gray) 0.1rem;
-  border-right: solid var(--gray) 0.1rem;
+.main-content {
+  border-inline-end: solid var(--gray) 0.1rem;
+  border-inline-start: solid var(--gray) 0.1rem;
   padding-top: 8rem;
 }

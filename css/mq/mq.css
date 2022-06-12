@@ -1,26 +1,15 @@
 @media screen and (max-width: 880px) {
-  /* nav  */
-
   .main-layout {
-    width: 78rem;
-    margin: 0 auto;
+    width: 750px;
     padding-top: 1rem;
-
     border: none;
   }
-
   nav {
-    height: 10rem;
     margin-bottom: 7.8rem;
-    width: 100vw;
-  }
-
-  .main-nav {
-    justify-content: space-between;
   }
 
   .nav-logo {
-    margin-inline-start: 1em;
+    margin-left: 2rem;
   }
 
   .nav-list .nav-link {
@@ -31,20 +20,11 @@
 
   .card {
     justify-content: space-between;
-    margin-bottom: 7.8rem;
+    margin-bottom: 13.8rem;
   }
 
-  .card .img-card {
-    flex-basis: 50%;
-  }
-
-  .text {
-    flex-basis: 45%;
-  }
   .card-title {
     font-size: 2.4rem;
-
-    margin-bottom: 1.5rem;
   }
   .text p {
     line-height: 1.3em;
@@ -67,6 +47,10 @@
   .main-layout {
     width: 600px;
   }
+
+  .nav-logo {
+    margin-left: 3rem;
+  }
   .hamburger {
     color: white;
     background-color: var(--nav-bg);
@@ -76,13 +60,7 @@
     line-height: 10rem;
     flex-basis: 13rem;
     justify-self: end;
-
     transition: color, border, 0.3s;
-  }
-
-  .nav-list .nav-link {
-    font-size: 1.4em;
-    line-height: 6em;
   }
 
   .nav-list {
@@ -90,13 +68,17 @@
     right: 0;
     top: 0;
     flex-direction: column;
-    background-color: rgb(255 255 255 / 90%);
+    background-color: rgba(255, 255, 255, 0.172);
+    backdrop-filter: blur(4px);
     height: 100vh;
-    border-block-end: 1px solid #ccc;
-
     transform: translateX(100%);
-
     transition: transform 0.4s, box-shadow 0.6s;
+  }
+
+  .nav-list .nav-link {
+    border-block-end: 0.1px solid rgb(9, 9, 9);
+    font-size: 1.4em;
+    line-height: 6em;
   }
 
   .nav-list .nav-link:hover {
@@ -106,41 +88,20 @@
     box-shadow: inset 4px 0px var(--green);
   }
 
-  .hamburger .nav-link {
-    line-height: 6rem;
-  }
   body.menu-toggle .nav-list {
     box-shadow: -6px 0px 17px rgb(0 0 0 / 19%);
     transform: translateX(0);
   }
 
-  .main-nav .nav-list > * {
-    border-block-end: 1px solid #ccc;
-  }
-
-  .main-nav .nav-list > *:not(:last-child) {
-    margin: 0;
-  }
-
   .card {
-    margin: auto;
-    width: 500px;
     flex-direction: column;
     margin-bottom: 13rem;
   }
   .img-card {
     margin-bottom: 3rem;
   }
-
-  .text .card-title {
-    /* text-align: center; */
-  }
-
   .card .text {
-    flex-basis: 37%;
-  }
-  .keep-reading {
-    margin: auto;
+    margin: 0;
   }
 }
 

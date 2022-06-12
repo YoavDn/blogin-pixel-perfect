@@ -3,11 +3,16 @@
   margin-bottom: 7.8rem;
 }
 .card .img-card {
-  flex-basis: 45%;
+  flex-basis: 50%;
 }
 
 .text {
   flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-inline-start: 2rem;
 }
 
 .card-title {
@@ -18,17 +23,4 @@
 .text p {
   line-height: 1.3em;
   margin-bottom: 1.5em;
-}
-
-.keep-reading {
-  position: relative;
-  font-family: 'Lato', sans-serif;
-  cursor: pointer;
-  background: none;
-  color: var(--gray);
-  font-size: 1.6rem;
-  border-radius: 3rem;
-  padding: 0.5em 2em;
-  border: solid 0.15em;
-  transition: padding 0.3s;
 }

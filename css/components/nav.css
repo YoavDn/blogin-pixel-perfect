@@ -1,6 +1,6 @@
 nav {
   background-color: var(--nav-bg);
-  height: 13rem;
+
   margin: auto;
 
   justify-content: center;
@@ -21,6 +21,7 @@ nav {
 
 .nav-list {
   flex-basis: 50%;
+  z-index: 4;
 }
 
 .nav-list .nav-link {
