@@ -27,5 +27,19 @@
 }
 
 .footer-list .icon {
+  justify-content: center;
   cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: var(--gray);
+}
+.facebook:hover {
+  background-color: #4267b2;
+}
+
+.twitter:hover {
+  background-color: #1da1f2;
+}
+.behance:hover {
+  background-color: #0057ff;
 }

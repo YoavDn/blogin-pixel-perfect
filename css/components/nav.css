@@ -27,19 +27,17 @@ nav {
   cursor: pointer;
   text-align: center;
   width: 13rem;
-  /* flex-basis: 13rem; */
-
   line-height: 13rem;
-  background-color: var(--nav-link-bg-clr);
-  border-inline: solid var(--nav-bg) 0.1rem;
-
-  box-shadow: inset black;
+  background-color: var(--nav-bg);
+  border-inline-end: solid black 0.1rem;
   transition: color, 0.3s;
+}
+.nav-list .nav-link:first-child {
+  border-inline-start: solid black 0.1rem;
 }
 
 .nav-link:hover {
   color: var(--green);
-
   box-shadow: inset 0px -7px var(--green);
 }
 

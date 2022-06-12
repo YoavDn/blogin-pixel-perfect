@@ -21,8 +21,8 @@
 }
 
 .keep-reading {
+  position: relative;
   font-family: 'Lato', sans-serif;
-
   cursor: pointer;
   background: none;
   color: var(--gray);
@@ -30,9 +30,17 @@
   border-radius: 3rem;
   padding: 0.5em 2em;
   border: solid 0.15em;
-  transition: color 0.3s;
+  transition: padding 0.3s;
 }
 
 .keep-reading:hover {
   color: var(--green);
+  padding-inline-end: 2.5em;
+}
+
+.keep-reading:hover::after {
+  content: '→';
+
+  position: absolute;
+  right: 13px;
 }
