@@ -32,15 +32,3 @@
   border: solid 0.15em;
   transition: padding 0.3s;
 }
-
-.keep-reading:hover {
-  color: var(--green);
-  padding-inline-end: 2.5em;
-}
-
-.keep-reading:hover::after {
-  content: '→';
-
-  position: absolute;
-  right: 13px;
-}
